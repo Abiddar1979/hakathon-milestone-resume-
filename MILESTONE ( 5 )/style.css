@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige background */
+}
+
+h1 {
+    text-align: center;
+    color: #c5f528; /* Indigo */
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 3px 3px #280893; /* Plum shadow */
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0ece4; /* Floral white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(18, 5, 5, 0.5);
+    padding: 30px;
+    border: 2px solid #09020e; /* Indigo border */
+}
+
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 18px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(15, 1, 1, 0.731);
+}
+
+fieldset {
+    border: 2px solid #1bcbdf; /* Indigo */
+    border-radius: 6px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #faf0e6; /* Linen color */
+    font-style: italic;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    color: #4b0082; /* Indigo */
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+input, textarea {
+    width: calc(100% - 2px); /* Adjusted width calculation */
+    padding: 3%;
+    margin-top: 2%;
+    border: 1px solid #4b0082; /* Indigo */
+    box-sizing: border-box;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #fffaf0; /* Floral white */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4b0082; /* Indigo */
+    color: white;
+    border: 1px solid #4b0082; /* Indigo */
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Garamond', serif;
+    font-weight: bold;
+    font-style: italic;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #dda0dd; /* Plum */
+    color: #4b0082; /* Indigo */
+}
+
+#resumeOutput {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #4b0082; /* Indigo */
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #fffaf0; /* Floral white */
+    font-style: italic;
+}
+
+#resumeOutput h2 {
+    color: #4b0082; /* Indigo */
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px #dda0dd; /* Plum shadow */
+}
+
+.profilePicture {
+    display: block;
+    margin: auto;
+    border: 5px solid #4b0082;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 100%; /* Corrected border-radius */
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
