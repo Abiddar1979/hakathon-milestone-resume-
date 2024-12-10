@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+
+body {
+    font-family: 'Garamond', serif;
+    margin: 25px;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige background */
+}
+
+h1 {
+    text-align: center;
+    color: #4b0082; /* Indigo */
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px #dda0dd; /* Plum shadow */
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    background-color: #fffaf0; /* Floral white */
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border: 2px solid #4b0082; /* Indigo border */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+fieldset {
+    border: 3px solid #4b0082; /* Indigo */
+    border-radius: 7px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #faf0e6; /* Linen color */
+    font-style: italic;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    color: #4b0082; /* Indigo */
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+input, textarea {
+    width: calc(100% - 1px);
+    padding: 3%;
+    margin-top: 2%;
+    border: 1px solid #4b0082; /* Indigo */
+    box-sizing: border-box;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #fffaf0; /* Floral white */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4b0082; /* Indigo */
+    color: white;
+    border: 1px solid #4b0082; /* Indigo */
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Garamond', serif;
+    font-weight: bold;
+    font-style: italic;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #dda0dd; /* Plum */
+    color: #4b0082; /* Indigo */
+}
+
+#resumeOutput {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #4b0082; /* Indigo */
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #fffaf0; /* Floral white */
+    font-style: italic;
+}
+
+#resumeOutput h2 {
+    color: #4b0082; /* Indigo */
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px #dda0dd; /* Plum shadow */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
